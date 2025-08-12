@@ -1,0 +1,38 @@
+# 忽略系统和临时文件
+.DS_Store
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+
+# 忽略Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+.ipynb_checkpoints/
+
+# 忽略R历史文件
+.Rhistory
+.RData
+.Rproj.user/
+
+# 忽略MATLAB临时文件
+*.asv
+*.m~
+
+# 忽略编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# test file
+/test/
+
+# local use files
+/local/

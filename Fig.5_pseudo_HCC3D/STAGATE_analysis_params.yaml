@@ -1,0 +1,70 @@
+STAGATE_mclust_10_annotate:
+    '1': 'Tumor AFP+' 
+    '3': 'Tumor GPC3+'
+    '4': 'Tumor proliferation'
+    '5': 'NK infiltration'
+    '9': 'CAF'
+    '8': 'B'
+    '10': 'Liver'
+    '6': 'Epithelial aggregates'
+    '2': 'Epithelial'
+    '7': 'other'
+
+STAGATE_mclust_10_annotate_viz:
+  'Tumor_AFP+': [1]
+  'Tumor_GPC3+': [3]
+  'Tumor_pro_CXCL13': [4]
+  'pioneer_immune': [5]
+  'CAF': [9]
+  'B': [8]
+  'Liver': [10]
+  'Epthelial_Neutrophil': [2, 6, 7]
+
+STAGATE_mclust_11_annotate_viz:
+  'Tumor_AFP+': [1]
+  'Tumor_GPC3+': [3]
+  'Tumor_pro_CXCL13': [4]
+  'Tumor_Liver': [10]
+  'Liver': [11]
+  'CAF': [5, 9]
+  'Epthelial_Neutrophil': [2, 6, 7]
+  'B': [8]
+
+type_order: ['Tumor','Liver','DC','CD4+','B','Monocyte','Macrophage','Ep','CAF',
+            'CD8+','T_reg','Mait','Mast','Neutrophil','NK','Endo']
+
+# subtype_order: [
+#     'Tumor_AFP+','Tumor_GPC3+','Tumor_proliferation','pDC_LILRA4+', 'cDC1_CLEC9A+',
+#     'T_CD4+, CXCL13+',
+#     'Macrophage_LYVE1+',
+#     'cDC2_CD1C+',
+#     'NK_NCAM1+',
+#     'CAF_ACTA2+',
+
+#     'Ep_EPCAM+',
+#     'Neutrophil_CSF3R+','Neutrophil_CSF3R+, S100A8+',
+
+#     'B_CD79A+, MS4A1+', 'B_CD79A+','B_MS4A1+','Plasma_B_CD79A+, MZB1+',
+
+#     'Liver',
+#     'T_reg',
+#     'Mast_CPA3+','Monocyte_CD14+','Monocyte_CD14+, CD16+','Monocyte_CD16+',
+
+#     'Cyto_T_CD4+','T_CD4+, CTLA4+','T_CD4+, PD1+','T_CD4+, PD1+, CTLA4+',
+#     'Cyto_T_CD8+', 'T_CD8+, CXCL13+', 'T_CD8+, PD1+',
+
+#     'Endo_PECAM1+',]
+
+# Revised by CZ
+subtype_order: [
+    'Tumor_AFP+', 'Tumor_GPC3+', 'Tumor_proliferation',
+    'pDC_LILRA4+', 'Monocyte_CD14+', 'cDC1_CLEC9A+', 'T_CD4+, CXCL13+', 'cDC2_CD1C+',
+    'NK_NCAM1+', 'Cyto_T_CD4+', 'Mait_SLC4A10+', 'CAF_ACTA2+', 
+    'Ep_EPCAM+', 'Neutrophil_CSF3R+','Neutrophil_CSF3R+, S100A8+',
+    'B_CD79A+, MS4A1+', 'B_CD79A+','B_MS4A1+','Plasma_B_CD79A+, MZB1+',
+    'Cyto_T_CD8+', 'T_CD8+, CXCL13+', 'T_CD8+, PD1+',
+    'T_CD4+, CTLA4+','T_CD4+, PD1+','T_CD4+, PD1+, CTLA4+',
+    'Endo_PECAM1+', 
+    'Liver', 'T_reg',
+    'Monocyte_CD14+, CD16+', 'Monocyte_CD16+', 'Macrophage_LYVE1+', 'Mast_CPA3+',
+    ]
