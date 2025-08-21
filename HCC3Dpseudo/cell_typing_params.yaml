@@ -1,0 +1,69 @@
+leiden_annotation:
+  Liver:
+    Liver: [-1]
+  Tumor:
+    Tumor_AFP+: [3, 84, 97]
+    Tumor_GPC3+: [9, 89, 192]
+    Tumor_proliferation: [47, 22, 37, 83, 59, 54, 105, 28, 116, 64, 118, 113, 109, 100]
+  Endo:
+    Endo_PECAM1+: [24]
+  Ep:
+    Ep_EPCAM+: [16, 36, 62, 79]
+  CAF:
+    CAF_ACTA2+: [7]
+  DC:
+    cDC1_CLEC9A+: [51]
+    cDC2_CD1C+: [21, 71, 81, 93]
+    pDC_LILRA4+: [10, 23, 110]
+  Mait:
+    Mait_SLC4A10+: [5, 38, 40, 41, 44, 63, 101]
+  Mast:
+    Mast_CPA3+: [0]
+  Monocyte:
+    Monocyte_CD14+: [8, 25]
+    Monocyte_CD14+, CD16+: [14]
+    Monocyte_CD16+: [46, 58, 114]
+  Neutrophil:
+    Neutrophil_CSF3R+: [6]
+    Neutrophil_CSF3R+, S100A8+: [31]
+  Macrophage:
+    # Macrophage_C1QA+: [201]
+    Macrophage_LYVE1+: [12, 39, 80, 87, 95, 104]
+  CD4+:
+    Cyto_T_CD4+: [15]
+    T_CD4+, CTLA4+: [19, 75, 111]
+    T_CD4+, CXCL13+: [4, 29, 27, 61, 88, 123, 124]
+    T_CD4+, PD1+: [20, 55, 67]
+    T_CD4+, PD1+, CTLA4+: [17]
+  CD8+:
+    Cyto_T_CD8+: [42, 48, 73, 90]
+    T_CD8+, CXCL13+: [129]
+    T_CD8+, PD1+: [32]
+  T_reg:
+    T_reg: [2, 86]
+  B:
+    B_CD79A+: [30]
+    B_CD79A+, MS4A1+: [35]
+    B_MS4A1+: [13, 26]
+    Plasma_B_CD79A+, MZB1+: [11]
+  NK:
+    NK_NCAM1+: [33, 82]
+
+type_colormap:
+  Liver: [1, 0.392, 0]
+  Tumor: [0.751, 0.491, 0]
+  Endo: [1, 0, 1]
+  Ep: [0, 1, 0]
+  CAF: [0, 0, 1]
+  DC: [1, 0.259, 0]
+  Mait: [1, 0, 0.434]
+  Mast: [1,0,0]
+  Monocyte: [0, 0.471, 1]
+  Neutrophil: [1, 1, 0]
+  Macrophage: [0.7, 1, 0]
+  CD4+: [0.5, 0.5, 0.5]
+  CD8+: [1, 0.8, 0]
+  T_reg: [0, 1, 0.672]
+  B: [0, 1, 1]
+  NK: [1, 0, 0]
+  other: [0.9, 0.9, 0.9]

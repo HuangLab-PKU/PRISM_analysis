@@ -1,0 +1,44 @@
+# Core scientific computing
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.11.4
+
+# Image processing
+opencv-python==4.12.0.88
+scikit-image==0.19.3
+tifffile==2025.3.30
+Pillow==11.3.0
+
+# Machine learning
+scikit-learn==1.4.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Progress bars and utilities
+tqdm==4.67.1
+PyYAML==6.0.2
+
+# Parallel processing
+pathos==0.3.2
+
+# Medical image processing
+SimpleITK==2.3.1
+
+# Deep learning (CSBDeep for StarDist)
+csbdeep==0.8.1
+
+# MATLAB engine
+matlabengine==9.11.21
+
+# GUI (optional)
+PySimpleGUI==5.0.8.3
+
+# Colormap utilities
+cmap==0.6.2
+
+# Note: 
+# 1. MATLAB Engine需要根据你的MATLAB版本单独安装
+# 2. 某些包可能需要根据你的具体使用情况调整版本
+# 3. lib==4.0.0 和 matlab==0.1 看起来不是必需的包，已移除
