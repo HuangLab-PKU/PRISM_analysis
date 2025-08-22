@@ -1,4 +1,4 @@
-# PRISM Spatial Transcriptomics Analysis
+# PRISM Analysis
 
 This repository contains the analysis code and data for the PRISM (Probe-based RNA Imaging for Spatial Transcriptomics) paper. PRISM is a probe-based spatial transcriptomics technology that enables high-resolution, multi-gene simultaneous detection.
 
